@@ -127,7 +127,7 @@ public class Perceptron {
 		int sum = globalGoal + globalError;
 		globalGoal = globalGoal / sum;
 		globalError = globalError / sum;
-		System.out.println("Taxa de acerto : " + globalGoal * 100 + " Taxa de erro :" + globalError * 100);
+		System.out.println("Taxa de acerto : " + globalGoal * 100 + "% Taxa de erro :" + globalError * 100+"%");
 
 	}
 

@@ -30,7 +30,7 @@ public class Arquivo {
 				
 				amostra = new Amostra();
 				caracteristicas = new ArrayList<Double>();
-				String linhaDividida[] = linha.split("	");
+				String linhaDividida[] = linha.split(",");
 
 				for (int x = 0; x < (linhaDividida.length - 2); x++) {
 					caracteristicas.add(Double.parseDouble(linhaDividida[x])); // pegando
